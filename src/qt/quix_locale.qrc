@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/quix_bg.qm</file>
+        <file alias="de">locale/quix_de.qm</file>
+        <file alias="en">locale/quix_en.qm</file>
+        <file alias="es">locale/quix_es.qm</file>
+        <file alias="fi">locale/quix_fi.qm</file>
+        <file alias="fr">locale/quix_fr.qm</file>
+        <file alias="it">locale/quix_it.qm</file>
+        <file alias="ja">locale/quix_ja.qm</file>
+        <file alias="pl">locale/quix_pl.qm</file>
+        <file alias="pt">locale/quix_pt.qm</file>
+        <file alias="ru">locale/quix_ru.qm</file>
+        <file alias="sk">locale/quix_sk.qm</file>
+        <file alias="sv">locale/quix_sv.qm</file>
+        <file alias="vi">locale/quix_vi.qm</file>
+        <file alias="zh_CN">locale/quix_zh_CN.qm</file>
+        <file alias="zh_TW">locale/quix_zh_TW.qm</file>
+    </qresource>
+</RCC>

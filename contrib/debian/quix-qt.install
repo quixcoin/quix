@@ -1,0 +1,6 @@
+usr/local/bin/quix-qt usr/bin
+share/pixmaps/quix32.xpm usr/share/pixmaps
+share/pixmaps/quix16.xpm usr/share/pixmaps
+share/pixmaps/quix128.png usr/share/pixmaps
+debian/quix-qt.desktop usr/share/applications
+debian/quix-qt.protocol usr/share/kde4/services/

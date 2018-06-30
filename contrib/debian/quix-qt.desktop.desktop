@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=QUIX
+Comment=QUIX P2P Cryptocurrency
+Exec=quix-qt %u
+Terminal=false
+Type=Application
+Icon=quix128
+MimeType=x-scheme-handler/quix;
+Categories=Office;Finance;
+Name[en_US]=quix-qt.desktop

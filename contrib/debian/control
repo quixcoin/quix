@@ -1,0 +1,68 @@
+Source: quix
+Section: utils
+Priority: optional
+Maintainer: Holger Schinzel <holger@quix.org>
+Uploaders: Holger Schinzel <holger@quix.org>
+Build-Depends: debhelper,
+ devscripts,
+ automake,
+ libtool,
+ bash-completion,
+ libdb4.8++-dev,
+ libssl-dev,
+ pkg-config,
+ libevent-dev,
+ libboost-system1.48-dev | libboost-system-dev (>> 1.35),
+ libboost-filesystem1.48-dev | libboost-filesystem-dev (>> 1.35),
+ libboost-program-options1.48-dev | libboost-program-options-dev (>> 1.35),
+ libboost-thread1.48-dev | libboost-thread-dev (>> 1.35),
+ libboost-test1.48-dev | libboost-test-dev (>> 1.35),
+ libboost-chrono1.48-dev | libboost-chrono-dev (>> 1.35),
+ qt4-qmake,
+ libqt4-dev,
+ libqrencode-dev,
+ libprotobuf-dev, protobuf-compiler,
+ python
+Standards-Version: 3.9.2
+Homepage: https://www.quix.org/
+Vcs-Git: git://github.com/quixcoin/quix.git
+Vcs-Browser: https://github.com/quixcoin/quix
+
+Package: quixd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - daemon
+ QUIX is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. QUIX uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. QUIX Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides the daemon, quixd, and the CLI tool
+ quix-cli to interact with the daemon.
+
+Package: quix-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - Qt GUI
+ QUIX is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. QUIX uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. QUIX Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides QUIX-Qt, a GUI for QUIX based on Qt.
+
+Package: quix-tx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer digital currency - standalone transaction tool
+ QUIX is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. QUIX uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. QUIX Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides quix-tx, a command-line transaction creation
+ tool which can be used without a quix daemon.  Some means of
+ exchanging minimal transaction data with peers is still required.

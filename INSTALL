@@ -1,0 +1,18 @@
+Building QUIX Core
+
+Use the autogen script to prepare the build environment.
+
+    chmod +x autogen.sh
+    ./autogen.sh
+    chmod +x share/genbuild.sh
+    ./configure
+    make
+
+Precompiled binaries are available at github, see
+https://github.com/quixcoin/quix-binaries
+
+Always verify the signatures and checksums.
+
+See doc/build-*.md for instructions on building quixd,
+the intended-for-services, no-graphical-interface, reference
+implementation of QUIX.
